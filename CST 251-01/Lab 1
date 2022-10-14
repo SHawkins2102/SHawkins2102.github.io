@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title> Cat Photo App </title>
+</head>
+<body>
+
+ <header>
+ 	<h1> CatPhotoApp </h1>
+ </header>
+
+<h2> Cat Photos </h2>
+<p> Click here to view more <a href="https://www.freecatphotoapp.com/"> cat photos </a>
+
+<figure>
+    <img width="250" src= "https://img.freeik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=360" alt="Orange Cat">
+      </figure>
+
+<h2> Cat Lists </h2>
+
+    <h3> Things Cat Love:</h3>
+      <ul>
+         <li> cat nip
+         <li> laser pointers
+         <li> lasagna
+<div>
+  <figure>
+     <img width="400" src="https://hips.heartstapps.com/hmg-prod.s3.amazonaws.com/images/delish-lasagna-bolognese-horizontal-1543346979.png?crop=1.00xw:0.752xh;0,0.175xh&resize=1200:*" alt="lasagna on white plate">
+    <figcaption>
+        Cats <em>love</em> lasagna.
+          </figcaption>
+        </figure>
+
+    </div>
+
+<h2> Top 3 things cats hate: </h2>
+
+    <ol>
+      <li> baths
+      <li> thunder
+      <li> other cats
+
+<div>
+  <figure>
+    <img width="400" src="https://www.petfriendlyhouse.com/wp-content/uploads/2020/05/what-do-you-call-a-group-of-cats.jpg" alt="group of cats on pavement">
+    <figcaption>
+      Cats <strong>hate</strong> other cats.
+    </figcaption>
+  </figure>
+</div>
+
+<h2> Cat Form </h2>
+
+
+  <form>
+    <fieldset>
+      <legend> Is your cat an indoor or outdoor cat?</legend>
+            <label> <input type="radio" name="q1">Indoor</label>
+            <label> <input type="radio" name="q1">Outdoor</label>
+            </fieldset>
+            <br>
+  <fieldset>
+     <legend> What's your cat's personality?</legend>
+      <input type="checkbox" name="q1">Loving
+      <input type="checkbox" name="q1">Lazy
+      <input type="checkbox" name="q1">Energetic
+</fieldset>
+   <br>
+
+<input type="text" name="cat photo"
+           placeholder="cat photo URL">
+
+ <button> Submit </button>
+
+
+
+
+ </body>
+
+ </html>
