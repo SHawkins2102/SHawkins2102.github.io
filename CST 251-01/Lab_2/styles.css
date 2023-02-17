@@ -1,0 +1,29 @@
+footer{
+	background-color: blue;
+	color: yellow;
+	padding: 25px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+label{
+	background-color: orange;
+	color: red;
+	margin: 15px;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+legend{
+	border: 3px solid orangered;
+	font-size: 20px;
+	text-align: center;
+}
+
+button{
+	text-align: right;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+}
