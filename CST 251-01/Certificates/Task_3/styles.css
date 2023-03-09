@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  background-color: lightsalmon;
+  font-size: 150%;
+  font-weight: bold;
+  ;
+}
+section {
+  background-color: lightcoral;
+  padding: 20px;
+  margin: 25px;
+}
+
+body {
+  background-color: lightpink;
+  color: darkred;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+    color: darkgreen;
+  }
+  
+  header {
+    text-align: center;
+    background-color: salmon;
+  }
+  
+  section {
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 25px;
+  }
+}
