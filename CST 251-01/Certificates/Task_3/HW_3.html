@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+  <header>
+    Navbar
+  </header>
+    <a class="nav-link" href="#Background_Color">Background Color</a>
+    <a class="nav-link" href="#Background_Image">Background Image</a>
+    <a class="nav-link" href="#Background_Repeat">Background Repeat</a>
+    <a class="nav-link" href="#Background_Attachment">Background Attachment</a>
+    <a class="nav-link" href="#Background_Position">Background Position</a>
+  </nav>
+    
+  <main id="main-doc">
+    <section id="Background_Color" class="main-section">
+      <header>
+        <a href="https://www.w3schools.com/css/css_background.asp">Background Color</a>
+      </header>
+      <p>
+        The "background-color" property is used to change the color of the 
+        website.
+      </p>
+
+      <p>
+        With CSS, a color is mainly specified by: a valid color name, a hex 
+        value, or an RGB value.
+      </p>
+      
+      <code>
+      body {
+        <br>
+          background-color: lightblue;<br>
+      }
+      </code>
+      <li>a valid color name - like "lightblue"</li>
+    </section>
+    
+    <section id="Background_Image" class="main-section">
+      <header>
+        <a href="https://www.w3schools.com/css/css_background_image.asp">Background Image</a>
+      </header>
+      <p>
+        The "background-image" property is for specifying which image to use 
+        as the background for an element.
+      </p>
+
+      <p>
+        When using a background image, make sure to use an image that does not           disturb the text.
+      </p>
+      
+      <code>
+        body { <br>
+              background-image: url("paper.gif");<br>
+            }
+      </code>
+      <li>
+        Note: The image might disturb the text if not used properly.
+      </li>
+    </section>
+    
+    <section id="Background_Repeat" class="main-section">
+      <header>
+        <a href="https://www.w3schools.com/css/css_background_repeat.asp"> Background Repeat</a>
+      </header>
+      <p>
+        The "background-repeat" property repeats an image both vertically                and horizontally.
+      </p>
+
+      <p>
+        Showing the background image only once is also specified when using              the "background-repeat" property.
+      </p>
+      <code>
+        body { <br>
+  background-image: url("gradient_bg.png");</br>
+}
+      </code>
+      <li>If the image above is repeated only horizontally, use (background-repeat: repeat-x;), the background will look better.</li>
+    </section>
+
+    <section id="Background_Attachment" class="main-section">
+      <header>
+        <a href="https://www.w3schools.com/css/css_background_attachment.asp"> Background Attachment</a>
+      </header>
+      <p>
+        The "background-attachment" property specifies whether the                       background image should scroll or be fixed (will not scroll with the             rest of the page)
+      </p>
+
+      <p>
+        When making a background attachment, make sure to specify that the image         is not only fixed to the page, but is also able to scroll alongside the          page.
+      </p>
+      <code>
+        body { 
+        <br>background-image: url("img_tree.png");</br>
+        <br>background-repeat: no-repeat;</br>
+        <br>background-position: right top;</br>
+        <br>background-attachment: fixed;</br>
+}
+      </code>
+      <li>It's very important that you specify which background image is being fixed in this situation.</li>
+    </section>
+
+    <section id="Background_Position" class="main-section">
+      <header>
+        <a href="https://www.w3schools.com/css/css_background_shorthand.asp"> Background Position</a>
+      </header>
+      <p>
+        The "shorthand" property helps shorten the code, while also specifying           all the background properties into one single property.
+      </p>
+
+      <p>
+        It does not matter if one of the property values is missing, as long as          the other ones are in this order.
+      </p>
+      
+      <code>
+        body { background: #ffffff url("img_tree.png") no-repeat right top; }
+      </code>
+      <li>The shorthand property not only helps position lines of code, but also shortens them as well for your convenience.</li>
+    </section>
+  </main>
+</body>
+
+</html>
