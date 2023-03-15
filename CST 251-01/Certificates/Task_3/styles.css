@@ -23,9 +23,11 @@ body {
 
 @media only screen and (max-width: 600px) {
   
-  a {display: block;
-    padding: 10px;
-    background-color: salmon;}
+  a {
+      display: block;
+      padding: 10px;
+      background-color: salmon;
+    }
   
   body {
     background-color: lightgreen;
